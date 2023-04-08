@@ -1,4 +1,5 @@
 Recipe App
+
 This is a console-based recipe app written in C#. The app allows you to input recipe ingredients and steps, and then displays the recipe, optionally scaled by a user-specified factor.
 
 Prerequisites
