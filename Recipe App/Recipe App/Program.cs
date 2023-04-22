@@ -37,7 +37,7 @@ internal class Program
 
     public static void validateChoice(string choice)
     {
-        int chosen = 0;
+        int chosen = -1;
 
         if (Int32.TryParse(choice, out chosen))
         {
