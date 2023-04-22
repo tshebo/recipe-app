@@ -5,13 +5,12 @@ internal class Program
 {
     //field
     private static string choice = "";
-
     private static bool loop = true;
 
-    //static object
+    //static objects
     private static Recipes recipe = new Recipes();
-
     private static Program program = new Program();
+
 
     private static void Main(string[] args)
     {
@@ -67,7 +66,7 @@ internal class Program
         }
         else
         {
-            Console.WriteLine("Exiting the recipe app.");
+            Console.WriteLine("Thank You for using the program");
             loop = false;
             Environment.Exit(0);
         }
